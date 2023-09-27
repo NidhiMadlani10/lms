@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Books of 2022</title>
+    <style>
+
+body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #ffe4c4;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: #3c2910;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: #3c2910;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            color: #ffe4c4;
+            background-color: #663800;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #ffe4c4;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #663800;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+    
+
+        .image {
+            height: 20px;
+            width: 20px;
+        }
+
+        p.a {
+            font-style: italic;
+            font-size: 25px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            color: #ffffff;
+        }
+
+        .book-container {
+            display: flex;
+            justify-content: last baseline;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #ffe4c4;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: #3c2910;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            color: #ffe4c4;
+            background-color: #663800;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-image: url('award.jpeg'); /* Add your background image URL here */
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            padding: 100px 0;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .genre-container-wrapper {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .genre-container {
+            /* Adjust the max-width as needed */
+            max-width: 200px;
+            margin: 20px;
+            text-align: center;
+        }
+        
+
+        .book {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px; 
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin: 10px;
+        }
+
+        .book-card {
+            cursor: pointer;
+        }
+
+        .book-details {
+            display: none;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .book img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body style="background-color:white;">
+        <div class="content">
+        <div class="navbar">
+            <a href="index.html"><img src="logo.jpeg" alt="Book Quest" width="150" height="30"></a>
+            <a href="index.html">Home</a>
+            <a href="mybooks.html">My Books</a>
+            <div class="dropdown">
+                <button class="dropbtn">Browse
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="fiction.html">Fiction</a>
+                    <a href="nonfic.html">Non-Fiction</a>
+                    <a href="biography.html">Biography</a>
+                    <a href="romance.html">Romance</a>
+                    <a href="crime.html">Crime</a>
+                </div>
+            </div>
+        </div>
+    <div class="header">
+        <h1>Best Books of 2022</h1>
+    </div>
+
+    <div class="genre-container-wrapper">
+    <!-- Genre Containers -->
+    <div class="genre-container">
+        <h2>Fiction</h2>
+        <div class="book">
+            <div class="book-card">
+                <img src="bestfiction.jpg" alt="Fiction Book">
+                <div class="book-details">
+                    <p>Title: Tomorrow, and Tomorrow, and Tomorrow</p>
+                    <p>Author: Gabrielle Zevin</p>
+                    <p>Genre: Fiction</p>
+                    <p>Year: 2022</p>
+                    <p>Description:In this exhilarating novel, two friends--often in love, but never lovers--come together as creative partners in the world of video game design, where success brings them fame, joy, tragedy, duplicity, and, ultimately, a kind of immortality.</p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <div class="genre-container">
+        <h2>Romance</h2>
+        <div class="book">
+            <div class="book-card">
+                <img src="bestromance.jpeg" alt="Romance Book">
+                <div class="book-details">
+                    <p>Title: Book Lovers</p>
+                    <p>Author:Emily Henry</p>
+                    <p>Genre: Romance</p>
+                    <p>Year: 2022</p>
+                    <p>Description:One summer. Two rivals. A plot twist they didn't see coming....</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="genre-container">
+        <h2>Non-Fiction</h2>
+        <div class="book">
+            <div class="book-card">
+                <img src="bestnonfiction.jpg" alt="non-fiction Book">
+                <div class="book-details">
+                    <p>Title:Atlas of the Heart</p>
+                    <p>Author:Brené Brown</p>
+                    <p>Genre: Non-Fiction</p>
+                    <p>Year: 2022</p>
+                    <p>Description:In Atlas of the Heart, Brown takes us on a journey through eighty-seven of the emotions and experiences that define what it means to be human. As she maps the necessary skills and an actionable framework for meaningful connection, she gives us the language and tools to access a universe of new choices and second chances—a universe where we can share and steward the stories of our bravest and most heartbreaking moments with one another in a way that builds connection.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="genre-container">
+        <h2>Biography</h2>
+        <div class="book">
+            <div class="book-card">
+                <img src="bestbiography.jpeg" alt="Biography Book">
+                <div class="book-details">
+                    <p>Title:His Name Is George Floyd: One Man's Life and the Struggle for Racial Justice</p>
+                    <p>Author:Robert Samuels</p>
+                    <p>Genre: Biography</p>
+                    <p>Year: 2022</p>
+                    <p>Description:A landmark biography by two prizewinning Washington Post reporters that reveals how systemic racism shaped George Floyd's life and legacy--from his family's roots in the tobacco fields of North Carolina, to ongoing inequality in housing, education, health care, criminal justice, and policing--telling the singular story of how one man's tragic experience brought about a global movement for change.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="genre-container">
+        <h2>Crime</h2>
+        <div class="book">
+            <div class="book-card">
+                <img src="bestcrime.jpeg" alt="crime Book">
+                <div class="book-details">
+                    <p>Title: The Maid</p>
+                    <p>Author: Nita Prose</p>
+                    <p>Genre: Crime</p>
+                    <p>Year: 2022</p>
+                    <p>Description:Molly Gray is not like everyone else. She struggles with social skills and misreads the intentions of others. Her gran used to interpret the world for her, codifying it into simple rules that Molly could live by.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+    <!-- Add more genre containers as needed -->
+
+    <script>
+        // JavaScript to toggle book details visibility on image click
+        const bookCards = document.querySelectorAll('.book-card');
+
+        bookCards.forEach((card) => {
+            const details = card.querySelector('.book-details');
+            card.addEventListener('click', () => {
+                details.style.display = details.style.display === 'none' ? 'block' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>
